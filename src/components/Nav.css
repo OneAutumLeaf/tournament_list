@@ -1,0 +1,29 @@
+.nav {
+  background-color: #121212;
+  width: 100vw;
+  height: 5vw;
+  display:flex;
+  flex-shrink: 0;
+}
+
+.nav-logo {
+    margin-left: 1.5vw;
+    margin-top: 1.5vw;
+    width: 1.6vw;
+    height: 1.6vw;
+}
+
+.nav-title {
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 1.3vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5vw; 
+  letter-spacing: 0.2px; 
+  margin-left: 2vw;
+
+ 
+  
+}

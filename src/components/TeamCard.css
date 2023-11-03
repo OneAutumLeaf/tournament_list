@@ -1,0 +1,67 @@
+.team{
+  background-color: #dcdcdc;
+  width: 330px;
+  height: 69px;
+  flex-shrink: 0;
+  padding-top: 5px;
+  padding-left: 17px;
+  display: flex;
+  flex-direction: row;
+}
+.team-description {
+  margin-left: 15px;
+  color: var(--light-text-primary, rgba(58, 53, 65, 0.87));
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-style: normal;
+}
+.team-icon {
+  background: lightgray 50% / cover no-repeat;
+  width: 4vw;
+  height: 4vw;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+
+.team-name {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px; /* 137.5% */
+  letter-spacing: 0.15px;
+  padding-top:7px;
+}
+.team-code {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 8px; /* 66.667% */
+  letter-spacing: 0.15px;
+  padding-top:10px;
+}
+
+.rectangle {
+  width: 0.55vw;
+  height: 2.95vw;
+  flex-shrink: 0;
+  background: #000;
+  margin-left: 70px;
+  margin-top: 10px;
+}
+
+.number {
+  color: var(--light-text-primary, rgba(58, 53, 65, 0.87));
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: 'Inter';
+ 
+  font-size: 2vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.43vw; /* 68.75% */
+  letter-spacing: 0.2px;
+  margin-left: 15px;
+  margin-top: 23px;
+}
+.trophy {
+ 
+  height:40px;
+  margin-top:15px;
+}

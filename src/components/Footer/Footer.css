@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Pacifico&display=swap');
+
+.pagenumber {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+
+    margin-top: 4vh;
+}
+
+.num:hover {
+    cursor: pointer;
+    background-color: red;
+    color:#fff;
+    border-radius: 4vw;
+    
+}
+.num {
+    margin-right: 2vw;
+}

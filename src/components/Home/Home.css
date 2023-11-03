@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Pacifico&display=swap');
+.home{
+    margin-left: 0.7vw;
+    
+}
+.home-list {
+    background-color: black;
+    height: auto;
+    width: 85vw;
+    padding-left: 3px;
+    padding-top: 10px;
+    border-radius: 0.5vw;
+    padding-bottom: 0;
+}
+.home-list-detail{
+    display:flex;
+    flex-direction: row;
+    font-family: "Inter";
+    font-weight: 300;
+    color: rgb(206, 203, 203);
+    font-size: 15px;
+    margin-left: 1vw;
+
+}
+
+.h-name {
+    margin-left:9vw;
+}
+.h-id{
+    margin-left: 15.9vw;
+}
+.h-email{
+    margin-left: 15vw;
+}
+.h-number{
+    margin-left: 17vw;
+}
+.h-list-items{
+    padding-left:0.5vw;
+    
+    height: 60vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    
+      
+}
+.h-list-items::-webkit-scrollbar {
+    display:none;
+}

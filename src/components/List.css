@@ -1,0 +1,118 @@
+
+
+.outline{
+    height: 6.8vw;
+    margin-top: 2.7vw;
+}
+
+.team-card3{
+    display:flex;
+    flex-direction: row;
+    margin-top: 3.1vw;
+}
+.one{
+    display:flex;
+    flex-direction: row; 
+   margin-top:30px;
+   margin-left: 30px;
+   
+}
+.two{
+    display:flex;
+    flex-direction: row; 
+   margin-top:40px;
+   margin-left: 30px;
+}
+.three {
+    display:flex;
+    flex-direction: row; 
+   margin-top:40px;
+   margin-left: 30px;
+}
+.one-one {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 10.7vw;
+    margin-left: 10px;
+}
+
+.rectangle1{
+    width: 0.55vw;
+  height: 2.95vw;
+  flex-shrink: 0;
+  background: #fff;
+  margin-left: 70px;
+  margin-top: 10px;
+}
+.team1{
+    background-color: #05A21E;;
+    width: 330px;
+    height: 69px;
+    flex-shrink: 0;
+    padding-top: 5px;
+    padding-left: 17px;
+    display: flex;
+    flex-direction: row;
+  }
+  .team-description1 {
+    margin-left: 15px;
+    color: var(--light-text-primary, rgba(58, 53, 65, 0.87));
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Inter;
+    font-style: normal;
+  }
+  .team-icon {
+    background: lightgray 50% / cover no-repeat;
+    width: 4vw;
+    height: 4vw;
+    flex-shrink: 0;
+    border-radius: 50%;
+  }
+  
+  .team-name1 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px; /* 137.5% */
+    letter-spacing: 0.15px;
+    padding-top:7px;
+    color: #fff;
+  }
+  .team-code1 {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 8px; /* 66.667% */
+    letter-spacing: 0.15px;
+    padding-top:10px;
+    color: #fff;
+  }
+  
+  .rectangle1 {
+    width: 0.55vw;
+    height: 2.95vw;
+    flex-shrink: 0;
+    background: #fff;
+    margin-left: 70px;
+    margin-top: 10px;
+  }
+  
+  .number1 {
+    color: var(--light-text-primary, rgba(225, 222, 228, 0.87));
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: 'Inter';
+   
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.43vw; /* 68.75% */
+    letter-spacing: 0.2px;
+    margin-left: 15px;
+    margin-top: 23px;
+  }
+ 
+  .trophy{
+    margin-right: -60px;
+    margin-left: 30px;
+    margin-top: 19px;
+    height: 30px;
+  }

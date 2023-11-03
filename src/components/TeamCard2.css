@@ -1,0 +1,71 @@
+.hteam{
+    background-color: #ede9e9;
+    width: 82.3vw;
+    height: 69px;
+    flex-shrink: 0;
+    padding-top: 5px;
+    padding-left: 17px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.5vw;
+  }
+  .hteam-description {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2vh;
+    margin-left: 15px;
+    color: var(--light-text-primary, rgba(58, 53, 65, 0.87));
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Inter;
+    font-style: normal;
+  }
+  .hteam-icon {
+    background: lightgray 50% / cover no-repeat;
+    width: 4vw;
+    height: 4vw;
+    flex-shrink: 0;
+    border-radius: 50%;
+    margin-right: -0.2vw;
+  }
+  
+  .hteam-name {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px; /* 137.5% */
+    letter-spacing: 0.15px;
+    padding-top:7px;
+  }
+  .hteam-code {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 8px; /* 66.667% */
+    letter-spacing: 0.15px;
+    padding-top:13px;
+    padding-left: 12vw;
+  }
+  
+ .hteam-email {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 8px; /* 66.667% */
+  letter-spacing: 0.15px;
+  padding-top:13px;
+  padding-left: 11vw;
+ }
+
+ .hteam-phone {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 8px; /* 66.667% */
+  letter-spacing: 0.15px;
+  padding-top:13px;
+  padding-left: 13.4vw;
+ }
+ .hteam-arrow {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 8px; /* 66.667% */
+  letter-spacing: 0.15px;
+  padding-top:13px;
+  padding-left: 9vw;
+ }

@@ -1,0 +1,72 @@
+.navbar{
+    width: 100%;
+}
+
+
+.butBar{
+    margin: 15px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+.but{
+    background-color: white;
+    border: 1px solid rgb(229, 227, 227);
+    padding: 10px 50px;
+    margin-top: 15px;
+    color:#757474;
+}
+.but:hover{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+.butfirst{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(229, 227, 227);
+    padding: 10px 50px;
+    margin-top: 15px;
+    border-top-left-radius: 0.5vw;
+    border-bottom-left-radius: 0.5vw;
+    color:#f1eded
+}
+
+.butlast{
+    background-color: white;
+    border: 1px solid rgb(229, 227, 227);
+    padding: 10px 50px;
+    margin-top: 15px;
+    border-top-right-radius: 0.5vw;
+    border-bottom-right-radius: 0.5vw;
+    color:#757474
+}
+.butlast:hover{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+
+.search{
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(244, 244, 244);
+    padding: 10px 20px;
+    margin: 10px 20px 10px 10px;
+    width: 60%;
+}
+
+.dateDiv{
+    display: inline;
+    margin-left: 30px;
+    width:30px;
+}
+
+.dateBut{
+    background-color: rgb(244, 244, 244);
+    padding: 10px 10px;
+    border: none;
+    margin-left: 20px;
+    width:11vw;
+}
+
+.hide{
+    display: none;
+}
+
