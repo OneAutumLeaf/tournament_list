@@ -13,6 +13,7 @@ const Navbar = () => {
         <button className="butlast">Deleted Accounts</button>
       </div>
       <div className="bars">
+        <img src="./search.png" style={{position:"absolute",marginTop:"14px",marginLeft:"12px"}} />
         {/* <AiOutlineSearch /> */}
         <input
           type="search"
@@ -20,11 +21,13 @@ const Navbar = () => {
           className="search"
         />
         <div className="dateDiv">
-          <input type="text" placeholder="From date" className="dateBut"/>
+          <img className="calendar-img" src="./calendar.png" />
+          <input type="text" placeholder="            From date" className="dateBut"/>
           {/* <SlCalender className="datecal"/> */}
         </div>
         <div className="dateDiv">
-          <input type="text" placeholder="To date" className="dateBut"/>
+        <img className="calendar-img" src="./calendar.png" />
+          <input type="text" placeholder="            To date" className="dateBut"/>
           {/* <SlCalender className="datecal"/> */}
         </div>
       </div>

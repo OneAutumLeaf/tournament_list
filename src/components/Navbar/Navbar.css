@@ -47,7 +47,7 @@
     border-radius: 5px;
     border: none;
     background-color: rgb(244, 244, 244);
-    padding: 10px 20px;
+    padding: 10px 30px;
     margin: 10px 20px 10px 10px;
     width: 60%;
 }
@@ -56,14 +56,24 @@
     display: inline;
     margin-left: 30px;
     width:30px;
+    
+}
+
+.calendar-img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 12px;
+    margin-left: 3px;
 }
 
 .dateBut{
     background-color: rgb(244, 244, 244);
     padding: 10px 10px;
     border: none;
-    margin-left: 20px;
+    margin-left: 0px;
     width:11vw;
+    border-radius: 0.5vw;
 }
 
 .hide{
