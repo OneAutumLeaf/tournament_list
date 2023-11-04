@@ -48,7 +48,8 @@
     border-radius: 5px;
     border: none;
     background-color: rgb(244, 244, 244);
-    padding: 10px 30px;
+    padding: 10px;
+    padding-left:2.8vw;
     margin: 10px 0px 10px 10px;
     width: 60%;
 }

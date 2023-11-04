@@ -13,7 +13,7 @@ const Navbar = () => {
         <button className="butlast">Deleted Accounts</button>
       </div>
       <div className="bars">
-        <img src="./search.png" style={{position:"absolute",marginTop:"14px",marginLeft:"12px"}} />
+        <img src="./search.png" style={{position:"absolute",marginTop:"14px",marginLeft:"19px"}} />
         {/* <AiOutlineSearch /> */}
         <input
           type="search"
