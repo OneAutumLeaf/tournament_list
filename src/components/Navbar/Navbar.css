@@ -49,7 +49,7 @@
     border: none;
     background-color: rgb(244, 244, 244);
     padding: 10px 30px;
-    margin: 10px 20px 10px 10px;
+    margin: 10px 0px 10px 10px;
     width: 60%;
 }
 
@@ -70,11 +70,12 @@
 
 .dateBut{
     background-color: rgb(244, 244, 244);
-    padding: 10px 10px;
+    padding: 10px 0px;
     border: none;
     margin-left: 0px;
     width:11vw;
     border-radius: 0.5vw;
+    padding-left:50px;
 }
 
 .hide{

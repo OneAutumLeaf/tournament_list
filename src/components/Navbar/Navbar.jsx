@@ -22,12 +22,12 @@ const Navbar = () => {
         />
         <div className="dateDiv">
           <img className="calendar-img" src="./calendar.png" />
-          <input type="text" placeholder="            From date" className="dateBut"/>
+          <input type="text" placeholder="From date" className="dateBut"/>
           {/* <SlCalender className="datecal"/> */}
         </div>
         <div className="dateDiv">
         <img className="calendar-img" src="./calendar.png" />
-          <input type="text" placeholder="            To date" className="dateBut"/>
+          <input type="text" placeholder="To date" className="dateBut"/>
           {/* <SlCalender className="datecal"/> */}
         </div>
       </div>
