@@ -12,6 +12,9 @@
     width: 1.6vw;
     height: 1.6vw;
 }
+.nav-logo:hover{
+ cursor: pointer;
+}
 
 .nav-title {
   color: #fff;
